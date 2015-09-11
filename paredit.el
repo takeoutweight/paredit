@@ -1010,7 +1010,7 @@ If the point is in a string or a comment, fill the paragraph instead,
       (save-excursion
         (end-of-defun)
         (beginning-of-defun)
-        (indent-sexp)))))
+        (prog-indent-sexp)))))
 
 ;;;; Comment Insertion
 
